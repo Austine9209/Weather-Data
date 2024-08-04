@@ -1,8 +1,5 @@
-# Weather-Data
-Week 1 Challenge
+# Week 1 Challenge
 
-
-%%writefile README.md
 # Weather Data Analysis
 
 This project explores a weather dataset using Python libraries such as Pandas, NumPy, and SQLite.
