@@ -117,3 +117,6 @@ print("Number of weather conditions including snow:", num_snow_conditions)
 ```
 Answer: Number of weather conditions including snow: 19
 
+### Part 2: SQL
+Import the CSV into the database:
+![CSVImport](https://github.com/user-attachments/assets/774fbbbd-2d52-4721-9a9f-be7e603e4e5c)
