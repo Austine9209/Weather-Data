@@ -19,17 +19,26 @@ The dataset contains weather records with the following columns:
 - Press_kPa
 - Weather
 
-## Analysis
-### Part 1
-Using python. the following questions were answered
-1.	Find all records where the weather was exactly clear.
-   ```bash
-  	# Find all records where the weather was exactly clear:
+```python
+# Find all records where the weather was exactly clear:
   	clear_weather_records = data[data['Weather'] == 'Clear']
 
   	# Display all record where the weather was exactly clear
   	print(clear_weather_records)
-  	```
+```
+
+## Analysis
+### Part 1
+Using python. the following questions were answered
+1.	Find all records where the weather was exactly clear.
+   ```python
+# Find all records where the weather was exactly clear:
+  	clear_weather_records = data[data['Weather'] == 'Clear']
+
+  	# Display all record where the weather was exactly clear
+  	print(clear_weather_records)
+```
+
   	
 3.	Find the number of times the wind speed was exactly 4 km/hr.
 4.	Check if there are any NULL values present in the dataset.
