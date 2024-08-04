@@ -1,6 +1,4 @@
-# Week 1 Challenge
-
-# Weather Data Analysis
+# Week 1 Challenge: Weather Data Analysis
 
 This project explores a weather dataset using Python libraries such as Pandas, NumPy, and SQLite.
 
