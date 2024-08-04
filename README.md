@@ -31,7 +31,7 @@ Using python. the following questions were answered
   	print(clear_weather_records)
 ```
 Answer:
-![Answer1](https://github.com/Austine9209/Weather-Data/issues/1#issue-2447234258)
+![answer 1](https://github.com/user-attachments/assets/a2c64025-4adc-4baf-8e71-c8a9ec921baf)
   	
 2.	Find the number of times the wind speed was exactly 4 km/hr.
    ```python
@@ -49,7 +49,7 @@ Answer: (478, 8)
 data.isnull().sum()
 ```
 Answer:
-![Answer3](https://github.com/Austine9209/Weather-Data/issues/1#issuecomment-2267621441)
+![ans3](https://github.com/user-attachments/assets/532c2031-bbfb-4e2a-987d-3299814b3d89)
    
 4.	Rename the column "Weather" to "Weather_Condition."
  ```bash
@@ -100,12 +100,20 @@ print(result)
 
 Answer:
 ![ans8](https://github.com/user-attachments/assets/5dd56557-bb57-4187-86e5-bb2db0128526)
-17.	Find the number of weather conditions that include snow.
+
+9.	Find the number of weather conditions that include snow.
 
 ```python
-# Check if there are any NULL values present in the dataset:
+# Find the number of weather conditions that include snow.
 
-data.isnull().sum()
+# Filter the DataFrame for weather conditions containing "Snow"
+snow_conditions = data[data['Weather'].str.contains('Snow')]
+
+# Count the number of unique weather conditions
+num_snow_conditions = snow_conditions['Weather'].nunique()
+
+# Print the result
+print("Number of weather conditions including snow:", num_snow_conditions)
 ```
-Answer:
+Answer: Number of weather conditions including snow: 19
 
